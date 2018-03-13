@@ -19,5 +19,8 @@ from django.urls import path, include
 urlpatterns = [
     path('webexample/', include('webexample.urls')),
     path('', include('mainApp.urls')),
+    path('news/', include('news.urls')),
     path('admin/', admin.site.urls)
 ]
+
+# Create your models here.
